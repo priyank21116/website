@@ -11,6 +11,7 @@ import mongo from '../images/mongo.png'
 import pyhton from '../images/pyhton.png'
 
 
+import './Style.css'
 
 const Skills = () => {
       return (

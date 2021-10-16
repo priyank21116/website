@@ -4,10 +4,10 @@ import prkphoto from '../images/prkphoto.jpeg'
 
 const About = () => {
       return (
-            <div className="bg-black" >
-            <hr></hr>
+            <div className="mt-20" >
+            <div >
              <h1 className=" mt-8 font bold text-center font-bold text-5xl" style={{ color:"#7CFC00"}}> ABOUT </h1>
-             
+             </div>
                   <div className="flex h-4/6 text-white bg-black full pl-24">
                               <div className="w-60 h-60 h-auto border-0 rounded-full overflow-hidden ">
                                     <img className="aboutimg" src={prkphoto} alt="about"></img>

@@ -33,19 +33,19 @@ const Project = () => {
                   <h1 className=" font bold pt-4 my-4 text-center font-bold text-5xl" style={{ color: "#7CFC00" }}>Projects</h1>
                   <hr id="linee"></hr>
 
-                  <div className="" >
+                  <div className=" flex transition duration-500 ease-in-out duration-300 ease-out delay-150 " >
                   {project.map((item)=>(
-                        <div class=" grid-cols-6 mx-8 mx-12 mx-auto bg-white border-2 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-                              <div class="md:flex bg-black">
-                                    <div class="md:flex-shrink-0">
+                        <div class="bg-black flex  grid-cols-6 mx-8 mx-12 mx-auto bg-white border-2 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                            
+                                    {/* <div class="md:flex-shrink-0 bg-black">
                                           <img class="h-48 p-4 w-full  object-cover md:h-full md:w-48" src={curveback} alt="Man looking at item at a store" />
-                                    </div>
+                                    </div> */}
                                     <div class="p-8 bg-black">
                                           <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">{item.title}</div>
                                           {/* <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Finding customers for your new business</a> */}
                                           <p class="mt-2 text-white ">{item.detail}</p>
                                     </div>
-                              </div>
+                            
                         </div>
                         ))}
                        
