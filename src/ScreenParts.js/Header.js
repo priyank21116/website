@@ -4,7 +4,7 @@ import xxx from '../images/logo1transperant.png'
 
 const Navbar = () => {
       return (
-            <div className="flex h-24 w-full  text-white bg-black border-orange-600 border-b-4 shadow-xl  overflow-hidden ">
+            <div className="flex h-24 w-full  text-white bg-black  border-b-4 shadow-xl  overflow-hidden bboor">
                   <div className="w-52 h-52 -mt-20 mx-16">
                         <img src={xxx} alt="Logo" />
                   </div>
