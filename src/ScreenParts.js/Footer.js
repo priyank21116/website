@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import mmm from '../images/contact.jpg'
 const Footer = () => {
       return (
@@ -9,7 +10,7 @@ const Footer = () => {
 
                        
                         <div className="text-weigth mx-auto -mb-0">
-                              <h1 className=" pt-4 my-4 text-center font-bold text-5xl" style={{ color:"#7CFC00"}}>I'm <span style={{color:"#ff4500"}}>Open</span> for freelancing.</h1>
+                              <h1 className=" pt-4 my-4 text-center font-bold text-5xl" style={{ color:"#7CFC00"}}>I'm <span style={{color:"#ff4500"}}>Open</span> for startup Collaboration.</h1>
                         </div>
                   </div>
                   <footer>
@@ -18,30 +19,31 @@ const Footer = () => {
 
                               <div className="flex mx-20 pb-16" >
                                     <div className="w-2/6">
-                                          <h3>know about</h3>
+                                          <h3 style={{color:"#ff4500",fontSize:'1.5rem',fontWeight:'bold'}}>This site have info</h3>
                                           <ul>
                                                 <li>Skills</li>
                                                 <li>About</li>
-                                                <li>Projrcts</li>
-                                                <li>Blogs</li>
+                                                <li>Projects</li>
+                                               
                                           </ul>
                                     </div>
                                     <div className="w-2/6">
-                                          <h3>checkout my handles</h3>
+                                          <h3 style={{color:"#ff4500",fontSize:'1.5rem',fontWeight:'bold'}}>Checkout my handles</h3>
                                           <ul>
-                                                <li>LinkedIn</li>
-                                                <li>Github</li>
-                                                <li>Leetcode</li>
+                                                <li><a href ="https://www.linkedin.com/in/priyank21116/" target='_blank'>LinkedIn</a></li>
+                                                <li><a href ="https://github.com/priyank21116/" target='_blank'>Github</a></li>
+                                                {/* <li>Leetcode</li> */}
 
                                           </ul>
                                     </div>
                                     <div className="w-2/6">
-                                          <h3>Ping me on</h3>
+                                          <h3 style={{color:"#ff4500",fontSize:'1.5rem',fontWeight:'bold'}}>Just a `Hey` away</h3>
                                           <ul>
 
                                                 <li>email: 2019116@iiitdmj.ac.in</li>
+                                                <li>priyankgupta2120@gmail.com</li>
                                                 <li>mobile :8085879544</li>
-                                                <li><input placeholder="write a message"></input><button>submit</button></li>
+                                                {/* <li><input placeholder="write a message"></input><button>submit</button></li> */}
                                           </ul>
                                     </div>
                               </div>

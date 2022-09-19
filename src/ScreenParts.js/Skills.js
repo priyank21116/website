@@ -16,16 +16,16 @@ import './Style.css'
 const Skills = () => {
       return (
       
-                  <div id="skill" className="bg-black">
-                        <div className="my-5 pt-4">
-                              <h1 className=" font bold pt-4 my-4 text-center font-bold text-5xl" style={{ color:"#7CFC00"}}>SKILL SET</h1>
-                              <hr id="linee"></hr>
+                  <div id="skill" className=" ">
+                        <div className="my-5 ">
+                              <h1 className="  font bold pt-4 my-4 text-center font-bold text-5xl mb-5" style={{ color:"#7CFC00"}}>SKILL SET</h1>
+                              {/* <hr id="linee"></hr> */}
 
                         </div>
-                        <div className="flex bg-black">
+                        <div className="flex ">
 
-                              <div className="">
-                                    <div className=" flex mt-10">
+                              <div  className="skill">
+                                    <div className=" flex mt-10 skill">
                                           <img className=" w-36 mx-14 h-36 bg-white border-1 rounded-3xl" src={html} alt="xyz"></img>
                                           <img className=" w-36 mx-14 h-36 bg-white border-1 rounded-3xl" src={css} alt="xyz"></img>
                                           <img className=" w-36 mx-14 h-36 bg-white border-1 rounded-3xl" src={javascript} alt="xyz"></img>
@@ -33,7 +33,7 @@ const Skills = () => {
                                           <img className=" w-36 mx-14 h-36 bg-white border-1 rounded-3xl" src={materailui} alt="xyz"></img>
 
                                     </div>
-                                    <div  className="flex mt-10">
+                                    <div  className="flex mt-10 skill">
                                           <img className=" w-36 mx-14 h-36 bg-white border-1 rounded-3xl" src={reactt} alt="xyz"></img>
                                           <img className=" w-36 mx-14 h-36 bg-white border-1 rounded-3xl" src={reduxx} alt="xyz"></img>
                                           <img className=" w-36 mx-14 h-36 bg-white border-1 rounded-3xl" src={nodejs} alt="xyz"></img>

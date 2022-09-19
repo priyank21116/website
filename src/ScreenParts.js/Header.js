@@ -4,7 +4,7 @@ import xxx from '../images/logo1transperant.png'
 
 const Navbar = () => {
       return (
-            <div className="flex h-24 w-full border-b text-white bg-black border-green-300 shadow-xl  overflow-hidden ">
+            <div className="flex h-24 w-full  text-white bg-black border-orange-600 border-b-4 shadow-xl  overflow-hidden ">
                   <div className="w-52 h-52 -mt-20 mx-16">
                         <img src={xxx} alt="Logo" />
                   </div>
@@ -14,8 +14,11 @@ const Navbar = () => {
                        <p className="w-20 h-24 hover:bg-black hover:text-green-700 border-0 rounded-xl  ">Skills</p>
                        <p className="w-20 h-24 hover:bg-black hover:text-green-700 border-0 rounded-xl  ">Projects</p>
                   </div>
+<div style={{ color:"#7CFC00",height:'2px'}}></div>
+<hr id="linee" style={{ color:"#7CFC00",height:'2px'}}></hr>
 
             </div>
+            
 
       )
 }
