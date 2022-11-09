@@ -22,7 +22,7 @@ const Skills = () => {
                               {/* <hr id="linee"></hr> */}
 
                         </div>
-                        <div className="flex ">
+                        <div className="flex">
 
                               <div  className="skill">
                                     <div className=" flex mt-10 skill">
